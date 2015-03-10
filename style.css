@@ -4,9 +4,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100%;
-  padding: 0;
-  margin: 0;
+  height: 100%; padding: 0; margin: 0;
 }
 @font-face {
     font-family: game_over;
@@ -14,12 +12,10 @@ html {
 }
 body {
     font-family: game_over,"Courier New", Courier, monospace;
-    height: 100%;
-    padding: 0;
-    margin: 0;
+    height: 100%; padding: 0; margin: 0;
 }
 div { width: 50%; height: 50%; float: left; }
-#div1 { background: #DDD; }
-#div2 { background: #AAA; }
-#div3 { background: #777; }
-#div4 { background: #444; }
+#div1 { background: #FFFFFF; }
+#div2 { background: #21B553; }
+#div3 { background: #A8A8A8; }
+#div4 { background: #000000; }
