@@ -2,15 +2,26 @@ html {
   height: 100%; padding: 0; margin: 0;
 }
 @font-face {
-    font-family: game_over;
+    font-family: "Lucida Console", Monaco, monospace;
     src: url(game_over.ttf);
 }
 body {
-    font-family: game_over,"Courier New", Courier, monospace;
+    font-family: "Lucida Console", Monaco, monospace;
     height: 100%; padding: 0; margin: 0;
 }
-div { width: 50%; height: 50%; float: left;}
+h1,h2,h3,p {
+padding-left: 20;
+padding-right: 20;
+}
+
+#div1,#div2,#div3,#div4 { width: 50%; height: 50%; float: left;}
 #div1 { background: #FFFFFF; }
-#div2 { background: #21B553; }
-#div3 { background: #A8A8A8; }
-#div4 { background: #000000; }
+#div2 { background: #FFFFFF; }
+#div4 { background: #86e9a5; }
+#div3 { background: #86e9a5; }
+
+#divtop { 
+z-index: 10; 
+position: absolute;
+}
+
