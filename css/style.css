@@ -1,0 +1,162 @@
+/*put in <details> and <summary> for stuff once firefox supports it */
+html {
+  height: 100%; padding: 0; margin: auto;
+}
+/*@font-face {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}*/
+body {
+    height: 100%; padding: 0; margin: auto;
+    font-family: 'Roboto Mono', 'Cousine', "Lucida Console", "Courier New", Courier, monospace ;
+}
+h1 {
+padding-left: 20;
+padding-right: 20;
+}
+
+h2 {
+  padding: 0;
+  line-height: 100%;
+}
+
+img{
+  max-width:100%;
+  max-height: 200px;
+}
+
+p{
+  color: grey;
+  padding: 0;
+}
+ul{
+  list-style-type: none;
+}
+
+a:link{
+  color: grey;
+}
+a:visited{
+  color: lightgrey;
+}
+a:hover{
+  color: black;
+}
+a:active{
+  color: black;
+  font-weight: bold;
+
+}
+
+/* OLD STUFF
+#div-left { width: 30%; float: left;}
+#div-right { width: 70%; float: right;}
+
+#div1,#div2,#div3,#div4 { width: 50%; height: 50%; float: left;}
+#div1 { background: #FFFFFF; }
+#div2 { background: #FFFFFF; }
+#div4 { background: #86e9a5; }
+#div3 { background: #86e9a5; }
+
+#divtop {
+z-index: 10;
+position: absolute;
+}
+*/
+
+div.top {
+  padding: 20px;
+
+}
+
+div.container{
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 95% ;
+  float: left;
+}
+
+div.box {
+  border-bottom: 5px solid ;
+  border-color: grey;
+  padding:3%;
+
+}
+
+div.imghead {
+/*set background image inside the .html */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  font: ;
+  text-align: center;
+
+}
+
+
+
+/*div.two {}
+
+div.three {}
+
+div.four {}
+
+div.five {}
+
+div.six {}
+/*
+
+/* little larger screen */
+@media only screen and (min-width: 480px) {
+div.container{
+  width: 45% ;
+  height: 400px;
+}
+div.box{
+  max-height: 400px;
+}
+}
+
+/* Pads and larger phones */
+@media only screen and (min-width: 600px) {
+  div.container{
+    height: 450px;
+  }
+  div.box{
+    max-height: 450px;
+  }
+}
+
+/* Larger pads */
+@media only screen and (min-width: 768px) {
+  div.container{
+    height: 350px;
+  }
+  div.box{
+    max-height: 350px;
+  }
+
+}
+
+@media only screen and (min-width: 840px) {
+  div.container{
+    height: 400px;
+  }
+  div.box{
+    max-height: 400px;
+  }
+
+}
+
+
+/** Horizontal pads and laptops */
+@media only screen and (min-width: 992px) {
+  div.container{
+    width: 28.33% ;
+    height: 400px;
+  }
+  div.box{
+    max-height: 400px;
+  }
+}
