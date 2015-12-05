@@ -2,9 +2,7 @@
 html {
   height: 100%; padding: 0; margin: auto;
 }
-/*@font-face {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}*/
+
 body {
     height: 100%; padding: 0; margin: auto;
     font-family: 'Roboto Mono', 'Cousine', "Lucida Console", "Courier New", Courier, monospace ;
@@ -47,21 +45,6 @@ a:active{
 
 }
 
-/* OLD STUFF
-#div-left { width: 30%; float: left;}
-#div-right { width: 70%; float: right;}
-
-#div1,#div2,#div3,#div4 { width: 50%; height: 50%; float: left;}
-#div1 { background: #FFFFFF; }
-#div2 { background: #FFFFFF; }
-#div4 { background: #86e9a5; }
-#div3 { background: #86e9a5; }
-
-#divtop {
-z-index: 10;
-position: absolute;
-}
-*/
 
 div.top {
   padding: 20px;
@@ -94,18 +77,6 @@ div.imghead {
 
 }
 
-
-
-/*div.two {}
-
-div.three {}
-
-div.four {}
-
-div.five {}
-
-div.six {}
-/*
 
 /* little larger screen */
 @media only screen and (min-width: 480px) {
