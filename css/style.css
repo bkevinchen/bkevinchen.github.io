@@ -4,21 +4,22 @@ html {
 }
 
 body {
-    height: 100%; padding: 0; margin: auto;
+    margin: auto;
     font-family: 'Roboto Mono', 'Cousine', "Lucida Console", "Courier New", Courier, monospace ;
     font-size: 100%;
+    padding-top: 50%;
+    padding-bottom: 0;
 }
 h1 {
 padding-left: 20;
 padding-right: 20;
-
+text-align: center;
+line-height: 192px;
+margin: 0;
+font-size: 250%;
 }
 
-h2 {
-  padding: 0;
-  line-height: 100%;
-  text-align: center;
-}
+
 
 img{
   max-width:100%;
@@ -29,19 +30,16 @@ p,li{
   color: grey;
   padding: 0;
 }
-ul{
-  list-style-type: none;
-  text-align: center;
-}
 
 a:link{
-  color: grey;
+  color: black;
+  text-decoration: none;
 }
 a:visited{
-  color: lightgrey;
+  color: black;
 }
 a:hover{
-  color: black;
+  color: grey;
 }
 a:active{
   color: black;
@@ -49,10 +47,46 @@ a:active{
 
 }
 
+div.one {
+  margin: auto;
+  margin-top: 20px;
+  padding: auto;
+  border: 1px solid #21b553;
+  height: 190px;
+  width: 190px;
+}
+
+div.two{
+  padding: 20px;
+}
+
+h2 {
+  padding: 0;
+  line-height: 100%;
+  text-align: center;
+}
+
+div.three{
+  padding: 5px;
+  width: 50px;
+  height: 64px;
+  margin: auto;
+  float: none;
+}
+
+div.three-letters{
+  height: inherit;
+  text-align: center;
+  position: absolute;
+}
+
+div.four{
+  z-index: 2;
+  position: relative;
+}
 
 div.top {
   padding: 20px;
-
 }
 
 div.container{
@@ -81,60 +115,12 @@ div.imghead {
 
 }
 
-/*Image hover-y stuff sourced from : http://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering
-
-.imgWrap {
-  position: relative;
-  height: 200px;
-  width: 257px;
-}
-
-.imgDescription {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(29, 106, 154, 0.72);
-  color: #fff;
-
-
-  visibility: hidden;
-  opacity: 0;
-
-  /*remove comment if you want a gradual transition between states
-  -webkit-transition: visibility opacity 0.2s;
-
-}
-
-
-.imgWrap:hover .imgDescription {
-  visibility: visible;
-  opacity: 1;
-}
-*/
-
-/* little larger screen */
-
-
-
-@media only screen and (min-width: 480px) {
-/*div.container{
-  width: 45% ;
-  height: 400px;
-}
-div.box{
-  max-height: 400px;
-}
-*/
-}
-
-
-
-
-
 /* Pads and larger phones */
 @media only screen and (min-width: 600px) {
+  body{
+    padding-left: 20%;
+    padding-top: 50%;
+  }
   div.container{
     height: 450px;
     width: 45% ;
@@ -146,20 +132,22 @@ div.box{
 
 /* Larger pads */
 @media only screen and (min-width: 768px) and (max-width: 842px) {
-  div.container{
-    height: 450px;
-  }
-  div.box{
-    max-height: 464px;
-  }
 
+  body{
+          font-size:130%;
+          padding-right: 20%;
+          padding-left: 0;
+          padding-top: 20px;
+  }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (orientation : portrait) {
     /*mobile Portrait*/
 body{
         font-size:150%;
-}
+        padding-left: 20%;
+        padding-top: 50%;
+      }
     div.container{
       width: 95%;
       height:auto;
@@ -172,9 +160,12 @@ body{
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (orientation : landscape) {
-    /*moobile landscape*/
+    /*mobile landscape*/
 body{
         font-size:130%;
+        padding-right: 20%;
+        padding-left: 0;
+        padding-top: 20px;
 }
     div.container{
       width: 45%;
@@ -187,19 +178,11 @@ body{
     }
 }
 
-
-
 /** Horizontal pads and laptops */
 @media only screen and (min-width: 992px) {
-  div.container{
-    width: 28.33% ;
-    height: 420px;
+  body{
+          padding-left: 0;
+          padding-right: 20%;
+          padding-top: 0px;
   }
-  div.box{
-    max-height: 464px;
-  }
-}
-
-@media only screen and (min-device-width: 375px) {
-
 }
